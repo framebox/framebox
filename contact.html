@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Framebox - L'animation photographique de vos soirées !</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+		<link rel="stylesheet" type="text/css" href="assets/css/framebox.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-responsive.min.css" >
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<ul class="nav nav-pills pull-right">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="a_propos.html">A propos</a></li>
+					<!-- <li><a href="#">Ils nous ont fait confiance</a></li> -->
+					<li><a href="#" class="galerie">Galerie</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>
+				</ul>
+				<h3><a href="index.html"><img style="height: 50px;" src="assets/img/logo-framebox.png" alt="logo" /></a></h3>
+			</header>
+
+			<div id="myCarousel" class="row-fluid carousel slide">
+				<div class="carousel-inner span12">
+					<div class="item active row-fluid">
+						<img src="assets/img/carousel/1.jpg" class="span12" />
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/2.jpg"  class="span12"/>
+					</div>
+					<div class="item  row-fluid">
+						<img src="assets/img/carousel/3.jpg"  class="span12"/>
+					</div>
+					<div class="item  row-fluid">
+						<img src="assets/img/carousel/4.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/5.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/6.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/7.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/8.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/9.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/10.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/11.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/12.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/13.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/14.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/15.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/16.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/17.jpg"  class="span12"/>
+					</div>
+					<div class="item row-fluid">
+						<img src="assets/img/carousel/18.jpg"  class="span12"/>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row marketing">
+			    <a class="btn btn-large btn-primary btn-block" style="color:#fff;" type="button" href="mailto:contact@framebox.fr">contact@framebox.fr</a>
+			    <!-- <h2 class="text-center"><a >contact@framebox.fr</h2> -->
+				<!-- <form class="span10"> -->
+				<!-- 	<div class="row"> -->
+				<!-- 		<div class="span3"> -->
+				<!-- 			<label>Nom</label> -->
+				<!-- 			<input type="text" class="span3" placeholder="Nom"> -->
+				<!-- 			<label>Prénom</label> -->
+				<!-- 			<input type="text" class="span3" placeholder="Prénom"> -->
+				<!-- 			<label>Email</label> -->
+				<!-- 			<input type="text" class="span3" placeholder="Email"> -->
+				<!-- 			<label>Sujet</label> -->
+				<!-- 			<input type="text" class="span3" placeholder="Sujet"> -->
+				<!-- 			</select> -->
+				<!-- 		</div> -->
+				<!-- 		<div class="span7"> -->
+				<!-- 			<label>Message</label> -->
+				<!-- 			<textarea style="height: 215px" name="message" id="message" class="input-xlarge span7" rows="10"></textarea> -->
+				<!-- 		</div> -->
+
+				<!-- 		<button type="submit" class="span 3 btn btn-primary pull-left">Envoyer</button> -->
+				<!-- 	</div> -->
+				<!-- </form> -->
+			</div>
+
+			<hr />
+
+			<footer>
+				<p>
+					<img src="assets/img/vincent-leblic.png" alt="vincent leblic" />
+					<a href=""><img class="pull-right" src="assets/img/logo-studiodesplantes.png" alt="studio des plantes" /></a>
+				</p>
+			</footer>
+		</div>
+		<div id="login-to-gallery" class="modal hide fade">
+			<div class="modal-body">
+				<form class="form-signin">
+					<h2 class="form-signin-heading">Entrer vos identifiants pour accéder à la galerie</h2>
+					<input type="text" class="input-block-level" id="galery-identifiant" placeholder="Identifiant">
+					<input type="password" class="input-block-level" id="galery-password" placeholder="Mot de passe">
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Annuler</button>
+				<button class="btn btn-primary" id="galery-go-to" type="submit">Accéder à la galerie</button>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/framebox.js"></script>
+ 	</body>
+</html>

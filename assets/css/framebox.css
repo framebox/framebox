@@ -1,0 +1,88 @@
+/* line 6, ../sass/framebox.sass */
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 13px; }
+
+/* line 11, ../sass/framebox.sass */
+.container {
+  margin: 0 auto;
+  max-width: 960px; }
+
+/* line 15, ../sass/framebox.sass */
+.form-signin-heading {
+  text-align: center; }
+
+/* line 18, ../sass/framebox.sass */
+#myCarousel img {
+  max-height: 636px; }
+
+/* line 21, ../sass/framebox.sass */
+#myTab li a {
+  background-color: #f6f6f6;
+  text-decoration: none; }
+
+/* line 25, ../sass/framebox.sass */
+#youtube-video, #youtube-video2 {
+  margin-left: -450px; }
+
+/* line 28, ../sass/framebox.sass */
+.a-propos {
+  font-size: 15px; }
+  /* line 31, ../sass/framebox.sass */
+  .a-propos p {
+    margin: 0 0 15px 0; }
+  /* line 33, ../sass/framebox.sass */
+  .a-propos h4 {
+    font-size: 24px;
+    margin: 0 0 30px 0; }
+  /* line 37, ../sass/framebox.sass */
+  .a-propos .row-fluid {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+    @media (max-width: 767px) {
+      /* line 41, ../sass/framebox.sass */
+      .a-propos .row-fluid div {
+        margin-bottom: 20px; } }
+
+/* line 45, ../sass/framebox.sass */
+.marketing {
+  margin: 30px 0; }
+  /* line 48, ../sass/framebox.sass */
+  .marketing p {
+    color: #38383a; }
+  /* line 51, ../sass/framebox.sass */
+  .marketing a {
+    color: #e74f1e;
+    text-decoration: underline; }
+    /* line 55, ../sass/framebox.sass */
+    .marketing a:hover {
+      color: #e74f1e;
+      text-decoration: none; }
+  /* line 59, ../sass/framebox.sass */
+  .marketing h4 {
+    margin-top: 28px;
+    color: #e74f1e; }
+  /* line 63, ../sass/framebox.sass */
+  .marketing li {
+    color: #38383a; }
+
+/* line 68, ../sass/framebox.sass */
+ul.nav-pills li.active a {
+  background: white;
+  color: #e74f1e; }
+  /* line 72, ../sass/framebox.sass */
+  ul.nav-pills li.active a:hover {
+    background: white;
+    color: #e74f1e; }
+/* line 75, ../sass/framebox.sass */
+ul.nav-pills li a {
+  background: white;
+  color: black; }
+  /* line 79, ../sass/framebox.sass */
+  ul.nav-pills li a:hover {
+    background: white;
+    color: #e74f1e; }
+  /* line 83, ../sass/framebox.sass */
+  ul.nav-pills li a:active {
+    background: white; }
