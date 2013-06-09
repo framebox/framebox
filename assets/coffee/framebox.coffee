@@ -9,7 +9,7 @@ $(document).ready ->
 		url = "framebox.fr/"
 		identifiant = $('#galery-identifiant').val();
 		password = $('#galery-password').val()
-		window.location.href = "http://#{identifiant}.#{url}#{password}" if identifiant != "" and password != ""
+		window.location.href = "http://#{identifiant}.#{url}?pass=#{password}" if identifiant != "" and password != ""
 
 	$('a.youtube').on 'click', (e) ->
 		$("#youtube-video").modal 'show'
