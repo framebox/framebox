@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Framebox - L'animation photographique de vos soirées !</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+		<link rel="stylesheet" type="text/css" href="assets/css/framebox.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-responsive.min.css" >
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<ul class="nav nav-pills pull-right">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="a_propos.html">La genèse</a></li>
+					<li><a href="#" class="galerie">Galerie</a></li>
+					<li class="active"><a href="ils_nous_ont_fait_confiance.html">Ils nous ont fait confiance</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<h3><a href="index.html"><img style="height: 50px;" src="assets/img/logo-framebox.png" alt="logo" /></a></h3>
+			</header>
+
+			<div class="row text-center">
+				<p class="lead">Ils nous ont fait confiance</p>
+					<h4>Arzinc</h4>
+					<h4>Caceis</h4>
+					<h4>Conforama</h4>					
+					<h4>Davoli</h4>
+					<h4>EDF</h4>
+					<h4>Fondeur & Cie</h4>
+					<h4>HSBC</h4>
+					<h4>Legrand</h4>
+					<h4>Les Nouveaux Constructeurs</h4>
+					<h4>Project Events</h4>
+					<h4>Unofi</h4>
+					<h4>...</h4>
+			</div>
+
+			<hr />
+
+			<footer>
+				<p>
+					<img src="assets/img/vincent-leblic.png" alt="vincent leblic" />
+					<a href=""><img class="pull-right" src="assets/img/logo-studiodesplantes.png" alt="studio des plantes" /></a>
+				</p>
+			</footer>
+		</div>
+		<div id="login-to-gallery" class="modal hide fade">
+			<div class="modal-body">
+				<form class="form-signin">
+					<h2 class="form-signin-heading">Entrer vos identifiants pour accéder à la galerie</h2>
+					<input type="text" class="input-block-level" id="galery-identifiant" placeholder="Identifiant">
+					<input type="password" class="input-block-level" id="galery-password" placeholder="Mot de passe">
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Annuler</button>
+				<button class="btn btn-primary" id="galery-go-to" type="submit">Accéder à la galerie</button>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/framebox.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-40927856-1', 'framebox.fr');
+		  ga('send', 'pageview');
+		</script>
+ 	</body>
+</html>
