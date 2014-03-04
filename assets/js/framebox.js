@@ -33,6 +33,8 @@
       return false;
     });
     return $('#myTab a').on('click', function(e) {
+      if ($(this).hasClass("no-js"))
+        return;
       e.preventDefault();
       return $(this).tab('show');
     });
