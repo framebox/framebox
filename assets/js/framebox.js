@@ -9,7 +9,7 @@
     $('#galery-go-to').on('click', function(e) {
       var identifiant, password, url;
 
-      url = "framebox.fr/";
+      url = "framebox.net/";
       identifiant = $('#galery-identifiant').val();
       password = $('#galery-password').val();
       if (identifiant !== "" && password !== "") {
